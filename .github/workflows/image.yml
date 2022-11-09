@@ -7,8 +7,8 @@ on:
   workflow_dispatch:
 
 env:
-  REGISTRY: "registry.digitalocean.com/wiwa1978-registry-wim"
-  IMAGE_NAME: "flask-app-wim"
+  REGISTRY: "registry.digitalocean.com/dinesh-docker-droplet"
+  IMAGE_NAME: "docker-droplet"
 
 jobs:
   build_and_push:
