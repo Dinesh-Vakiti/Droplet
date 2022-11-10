@@ -50,7 +50,7 @@ jobs:
             docker login -u $DOCKER_USER -p $DOCKER_PASSWORD registry.digitalocean.com
 
             # Run a new container from a new image
-            docker run -d \
+            docker run -it \
             --restart always \
             -p 80:5000 \
             --name $(echo $IMAGE_NAME) \
